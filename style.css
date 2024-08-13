@@ -15,7 +15,7 @@ body{
 /* shared style */
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin: 70px auto;
     background-color: black;
 }
 .btn-primary{
@@ -92,7 +92,7 @@ body{
     font-size: 36px;
     font-weight: 800;
     color: rgb(230, 83,60);
-    width: 132px;
+ 
 }
 .banner h1{
     font-weight: 900;
@@ -181,3 +181,176 @@ body{
     margin: 0;
     margin-bottom: 50px;
 }
+
+/* meet-our-team-section */
+.team-member{
+    border-radius:18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+
+}
+.img-and-content img{
+    width:100%;
+    height: 350px;
+    border-radius:18px;
+    background: rgba(0, 0, 0, 0.2);
+   
+   
+}
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  
+ 
+   
+}
+.img-content{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.img-and-content{
+    position: relative;
+}
+.name{
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+/* BMI */
+.bmi-table-and-form{
+    display: flex;
+}
+.bmi-table{
+    width: 50%;
+
+}
+.bmi-table h2{
+    color: #FFFFFF;
+}
+table, th, tr, td{
+    color: #FFFFFF;
+    border: 1px solid gray;
+    padding: 10px 50px;
+    border-collapse: collapse;
+}
+.bmi-form{
+    width: 50%;
+
+}
+.bmi-form .d-flex{
+    display: flex;
+    /* gap: 20px; */
+    /* margin-right: 10px; */
+    margin-bottom: 10px;
+   
+}
+.bmi-form input, select{
+    width: 100%;
+    padding: 10px 20px;
+}
+.table, tbody, tr, td{
+    color: #FFFFFF80;
+    font-weight: 400;
+    font-size: 14px;
+}
+.table, thead, th{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.bmi-table h2{
+    margin-bottom: 50px;
+}
+.table, th, td{
+    border: 1px solid rgb(255, 255, 255, 0.1)
+   
+   
+}
+/* .d-flex .text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF99;
+} */
+
+
+/* Footer Area Started */
+.footer-section{
+    background: #FFFFFF1A;
+    margin-top: 88px;
+}
+
+.description-and-service{
+    display: flex;
+  
+    padding: 65px 60px 65px 190px;
+}
+
+.footer-area{
+    max-width: 50%;
+  
+}
+/* .footer-area{
+    max-width: 443px;
+} */
+.fitness{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    
+    
+
+}
+.footer-area .section-description{
+    max-width: 443px;
+    margin-top: 20px;
+}
+
+.service-area{
+    max-width: 50%;
+ 
+    display: flex;
+
+  
+}
+.services{
+
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    width: 50%;
+    margin-left:102px ;
+   
+  
+}
+.services h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 40px;
+   
+}
+.services ul li{
+    list-style: none;
+    margin-top: 20px;
+  
+}
+.services ul li a{
+    text-decoration: none;
+    line-height: 40px;
+    color:#FFFFFF80;
+    font-size: 23px;
+    font-weight: 400;
+   
+}
+.get-sterted{
+    margin-left: 152px;
+}
+
+
+
+
+
+
