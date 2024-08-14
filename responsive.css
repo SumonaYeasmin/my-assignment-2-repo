@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .btn-primary{
+        width: 150px;
+    }
+    .banner h1{
+        font-size: 36px;
+    }
+    .habit-section-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
