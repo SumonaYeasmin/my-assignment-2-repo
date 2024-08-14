@@ -15,10 +15,14 @@
     .menu-area{
         display: none;
     }
+    .logo-and-menu-area{
+        margin-top: 50px;
+    }
 
     /* Banner */
     .banner{
         flex-direction: column;
+        margin-top: 0;
     }
     .banner-content{
         width: 100%;
