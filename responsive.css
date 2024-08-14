@@ -1,4 +1,10 @@
 @media screen and (max-width: 576px) {
+   /* Shared */
+   .section-title{
+        font-size: 32px;
+    }
+
+    /* Banner */
     .banner{
         flex-direction: column;
     }
@@ -9,7 +15,8 @@
         width: 100%;
     }
     .btn-primary{
-        width: 150px;
+        width: 125px;
+        font-size: 14px;
     }
     .banner h1{
         font-size: 36px;
@@ -17,5 +24,49 @@
     .habit-section-box{
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .habit-item{
+        margin-bottom: 20px;
+    }
+
+    /* Run Section */
+    .run-section{
+        flex-direction: column;
+    }
+    .run-container{
+        width: 100%;
+    }
+    .run-img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .run-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* BMI Section */
+    .bmi-table-and-form{
+        flex-direction: column;
+    }
+    .bmi-table{
+        width: 100%;
+    }
+    .bmi-form{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .bmi-form input{
+        width: 74%;
+    }
+    table, th, tr, td{
+        padding: 10px 25px;
+    }
+
+    /* Our Team */
+    .team-member{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .img-and-content img{
+        height: 230px;
+    }
 }
