@@ -4,6 +4,18 @@
         font-size: 32px;
     }
 
+    /* Header */
+    .bar-icon{
+        display: block;
+    }
+    .bar-icon i{
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .menu-area{
+        display: none;
+    }
+
     /* Banner */
     .banner{
         flex-direction: column;

@@ -15,7 +15,7 @@ body{
 /* shared style */
 .container{
     width: 80%;
-    margin: 70px auto;
+    margin: 0 auto;
    
 }
 .btn-primary{
@@ -71,6 +71,7 @@ body{
     border: 1px solid gray;
     border-radius:39px;
     padding: 10px 2px;
+    display: block;
 }
 
 
