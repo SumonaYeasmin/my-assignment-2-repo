@@ -48,9 +48,23 @@
     .banner-description{
         max-width: 250px;
     }
+    .watch-btn{
+        width: 140px;
+        height: 70px;
+        font-size: 12px;
+     }
+     .btn-1{
+        right: 0;
+     }
+     .btn-2{
+        left: 0;
+        bottom: 30%;
+     }
     .miama{
         font-size: 60px;
     }
+    /* Habit Section */
+    
     .habit-section-box{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -178,6 +192,9 @@
     .btn-primary{
         width: 195px;
     }
+    .btn-1{
+        right: -8%;
+     }
     .habit-section-box{
         gap: 20px;
     }

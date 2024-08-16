@@ -113,6 +113,38 @@ body{
     width: 50%;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+.watch-btn{
+    width: 195px;
+    height: 95px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 0 10px;
+}
+.watch-btn .watch-icon{
+    background-color: rgb(230, 83,60);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-1{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
+.btn-2{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
 }
 .banner-title{
     font-size: 78px;
