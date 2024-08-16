@@ -24,7 +24,7 @@ body{
     height: 54px;
     border-radius:42px;
     background-color: rgb(230, 83, 60);
-    /* padding: 16px 40px; */
+    border: none;
     font-weight: 600;
     font-size: 18px;
     color: rgb(255, 255, 255);
@@ -65,7 +65,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
+    padding-top: 80px;
 
 }
 .menu-area{
@@ -135,7 +135,7 @@ body{
     max-width: 540px;
 }
 
-.header-section{
+.header-and-banner-section{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     color: #111111FF
     #77777700;    

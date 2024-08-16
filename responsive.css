@@ -1,5 +1,8 @@
 @media screen and (max-width: 576px) {
    /* Shared */
+   .container{
+    width: 90%;
+   }
    .section-title{
         font-size: 32px;
     }
@@ -16,7 +19,7 @@
         display: none;
     }
     .logo-and-menu-area{
-        margin-top: 50px;
+        padding-top: 50px;
     }
     
 
@@ -31,8 +34,11 @@
     .banner-image{
         width: 100%;
     }
+    .banner-image img{
+        width: 100%;
+    }
     .btn-primary{
-        width: 125px;
+        width: 49%;
         font-size: 14px;
     }
     .banner-title{
@@ -56,6 +62,7 @@
     .run-section{
         flex-direction: column;
         padding: 20px;
+        box-sizing: border-box;
     }
     .run-container{
         width: 100%;
@@ -71,11 +78,11 @@
     .run-container .section-title-and-description{
         margin-bottom: 25px;
     }
+    .run-section .btn-primary{
+        width: 100%;
+    }
 
     /* BMI Section */
-    .bmi-section{
-        margin-right: -10px;
-    }
     .bmi-table-and-form{
         flex-direction: column;
     }
@@ -127,9 +134,9 @@
     }
 
     /* Footer */
-    .footer-section{
+    /* .footer-section{
         margin-right: -10px;
-    }
+    } */
     .description-and-service{
         flex-direction: column;
     }
@@ -161,5 +168,39 @@
     .reserved{
         text-align: center;
         font-size: 18px;
+    }
+}
+
+
+
+/* Laptop */
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    .btn-primary{
+        width: 195px;
+    }
+    .habit-section-box{
+        gap: 20px;
+    }
+    .habit-item{
+        width: 100%;
+    }
+    .bmi-table-and-form{
+        gap: 20px;
+    }
+    .bmi-form input{
+        width: 80%;
+    }
+    .img-and-content img{
+        height: 250px;
+    }
+    .description-and-service{
+        gap: 20px;
+    }
+    .service-area{
+        gap: 30px;
+        justify-content: space-around;
+    }
+    .services{
+        margin-left: 0;
     }
 }
